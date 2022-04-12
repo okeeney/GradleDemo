@@ -9,5 +9,9 @@ import java.util.ArrayList;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Finance {
+
+  /**
+   * ArrayList of results
+   */
   public ArrayList<Result> result;
 }

@@ -4,6 +4,8 @@
 
 plugins {
     java
+    publishing
+    `maven-publish`
 }
 
 repositories {
@@ -32,7 +34,6 @@ java {
         languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
-
 
 tasks.named<Test>("test") {
     useTestNG()

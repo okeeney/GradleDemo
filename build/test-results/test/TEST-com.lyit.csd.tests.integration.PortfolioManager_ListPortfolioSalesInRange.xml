@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lyit.csd.tests.integration.PortfolioManager_ListPortfolioSalesInRange" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-12T17:29:54" hostname="DESKTOP-8CDMI80" time="3.211">
+  <properties/>
+  <testcase name="listPortfolioSalesInRange_GivenInvalidTimestamp_ReturnsEmptyString" classname="com.lyit.csd.tests.integration.PortfolioManager_ListPortfolioSalesInRange" time="0.0"/>
+  <testcase name="listPortfolioSalesInRange_GivenValidTimestamp_ReturnsValidString" classname="com.lyit.csd.tests.integration.PortfolioManager_ListPortfolioSalesInRange" time="3.21"/>
+  <system-out><![CDATA[TSLA sold 1.0 on 2022-04-12 18:29:57 at $998.4
+]]></system-out>
+  <system-err><![CDATA[Apr 12, 2022 6:29:56 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+]]></system-err>
+</testsuite>

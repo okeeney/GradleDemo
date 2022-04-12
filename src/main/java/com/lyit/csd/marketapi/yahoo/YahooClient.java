@@ -277,7 +277,9 @@ public class YahooClient implements MarketClient {
    * Method to make get request from API.
    *
    * @param url target url containing operation to be performed.
-   * @param counter a counter to track the number of attempts made..
+   * @param counter a counter to track the number of attempts made.
+   * @param lastKeyUsed refers to the last api key used to make a call.
+   *
    * @return a http response object
    */
   public Response makeGetRequest(String url, int counter, String lastKeyUsed) {

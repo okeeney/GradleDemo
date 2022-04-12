@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.lyit.csd.tests.integration.PortfolioManager_listPortfolioAssetsByType</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.lyit.csd.tests.integration.PortfolioManager_listPortfolioAssetsByType</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.lyit.csd.tests.integration.html">com.lyit.csd.tests.integration</a> &gt; PortfolioManager_listPortfolioAssetsByType</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">33.027s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">listPortfolioAssetsByType_GivenCryptoParameter_ReturnsNotNull</td>
+<td class="success">7.183s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">listPortfolioAssetsByType_GivenMixedCaseParameter_ReturnsNotNull</td>
+<td class="success">18.193s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">listPortfolioAssetsByType_GivenStockParameter_ReturnsNotNull</td>
+<td class="success">7.651s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Name: Bitcoin USD	 Symbol: BTC-USD		 - Current Price (USD): 40161.805		 - % change: -0.8868046		 - $ change: -359.34375		 Average Investment Price: 44854.95		Current Units: 0.0445881
+
+Name: Tesla	 Symbol: TSLA		 - Current Price (USD): 996.72		 - % change: 2.1302736		 - $ change: 20.789978		 Average Investment Price: 775.22		Current Units: 10.0
+Name: Apple	 Symbol: AAPL		 - Current Price (USD): 167.945		 - % change: 1.324288		 - $ change: 2.1950073		 Average Investment Price: 139.96		Current Units: 20.0
+Name: NVIDIA	 Symbol: NVDA		 - Current Price (USD): 216.66		 - % change: -1.1452272		 - $ change: -2.5099945		 Average Investment Price: 152.77		Current Units: 12.0
+
+Name: Tesla	 Symbol: TSLA		 - Current Price (USD): 996.7467		 - % change: 2.1330128		 - $ change: 20.816711		 Average Investment Price: 775.22		Current Units: 10.0
+Name: Apple	 Symbol: AAPL		 - Current Price (USD): 167.9		 - % change: 1.2971306		 - $ change: 2.149994		 Average Investment Price: 139.96		Current Units: 20.0
+Name: NVIDIA	 Symbol: NVDA		 - Current Price (USD): 216.5099		 - % change: -1.2137132		 - $ change: -2.6600952		 Average Investment Price: 152.77		Current Units: 12.0
+
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Apr 12, 2022 6:30:38 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:42 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:43 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:44 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:45 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:46 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:46 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:50 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:52 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:52 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:31:00 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:31:03 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:31:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4.2</a> at 12 Apr 2022, 18:31:12</p>
+</div>
+</div>
+</body>
+</html>

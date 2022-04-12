@@ -7,5 +7,8 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Root {
+  /**
+   * A quote response object.
+   */
   public QuoteResponse quoteResponse;
 }

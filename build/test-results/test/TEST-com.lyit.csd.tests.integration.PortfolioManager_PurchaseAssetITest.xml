@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lyit.csd.tests.integration.PortfolioManager_PurchaseAssetITest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-04-12T17:29:57" hostname="DESKTOP-8CDMI80" time="20.583">
+  <properties/>
+  <testcase name="purchaseAsset_insufficientFunds_expectFail" classname="com.lyit.csd.tests.integration.PortfolioManager_PurchaseAssetITest" time="1.751"/>
+  <testcase name="purchaseAsset_invalidSymbol_expectFail" classname="com.lyit.csd.tests.integration.PortfolioManager_PurchaseAssetITest" time="2.511"/>
+  <testcase name="purchaseAsset_minusUnit_expectFail" classname="com.lyit.csd.tests.integration.PortfolioManager_PurchaseAssetITest" time="2.722"/>
+  <testcase name="purchaseAsset_singleUnit_happyPath" classname="com.lyit.csd.tests.integration.PortfolioManager_PurchaseAssetITest" time="1.372"/>
+  <testcase name="purchaseAsset_zeroUnit_expectFail" classname="com.lyit.csd.tests.integration.PortfolioManager_PurchaseAssetITest" time="12.225"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 12, 2022 6:29:57 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:29:58 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:00 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:01 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:03 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:04 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:06 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:08 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:09 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:10 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:15 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Apr 12, 2022 6:30:17 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://yfapi.net/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+]]></system-err>
+</testsuite>

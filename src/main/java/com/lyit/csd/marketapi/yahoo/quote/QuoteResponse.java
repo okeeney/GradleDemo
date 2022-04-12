@@ -9,5 +9,9 @@ import java.util.ArrayList;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class QuoteResponse {
+
+  /**
+   * Array list of results
+   */
   public ArrayList<Result> result;
 }
