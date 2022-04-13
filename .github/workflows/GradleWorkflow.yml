@@ -24,8 +24,4 @@ jobs:
       - name: Building with Gradle
         run: ./gradlew build
         
-  javadoc:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Generate Javadoc documentation
-      run: gradlew javadoc
+ 
