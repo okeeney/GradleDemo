@@ -1,5 +1,6 @@
 -d 'C:\\Users\\oisin\\Desktop\\GradleDemo\\build\\docs\\javadoc'
 -doctitle 'Portfolio 1.0-SNAPSHOT API'
+-encoding 'UTF-8'
 -notimestamp 
 -quiet 
 -windowtitle 'Portfolio 1.0-SNAPSHOT API'

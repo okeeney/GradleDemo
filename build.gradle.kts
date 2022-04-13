@@ -10,12 +10,6 @@ plugins {
     `maven-publish`
 }
 
-repositories {
-    mavenLocal()
-    maven {
-        url = uri("https://repo.maven.apache.org/maven2/")
-    }
-}
 
 dependencies {
     implementation("org.json:json:20220320")
@@ -35,19 +29,29 @@ java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
     }
+
+    withJavadocJar()
 }
 
 tasks.named<Test>("test") {
     useTestNG()
+    include("src/test/java")
+    testLogging.showStandardStreams = true
+}
+
+sourceSets {
+    main {
+        java {
+
+        }
+    }
 }
 
 tasks.register<Javadoc>("generateCustomJavadocs") {
     println("Generating Javadocs...")
-    doLast{
-        source("src/main")
-        javadocTool
-    }
+    source(sourceSets["main"].allJava)
 }
+
 
 
 
@@ -61,6 +65,26 @@ publishing {
         maven {
             name = "myRepo"
             url = uri(layout.buildDirectory.dir("publications/myLibrary"))
+        }
+    }
+}
+
+allprojects {
+    tasks.withType<Test> {
+        maxParallelForks = 4
+    }
+
+    tasks.withType<Javadoc> {
+        println("in tasks.withType<Javadoc>")
+        options.encoding = "UTF-8"
+        isFailOnError = false
+    }
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        maven {
+            url = uri("https://repo.maven.apache.org/maven2/")
         }
     }
 }
