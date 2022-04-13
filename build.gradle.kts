@@ -6,8 +6,8 @@
 plugins {
     java
     `java-library`
-    publishing
-    `maven-publish`
+    //publishing
+    //`maven-publish`
 }
 
 
@@ -33,14 +33,23 @@ java {
     withJavadocJar()
 }
 
-tasks.named<Test>("test") {
+
+tasks.test {
     useTestNG()
-    include("src/test/java")
+}
+
+tasks.named<Test>("test") {
     testLogging.showStandardStreams = true
 }
 
 sourceSets {
     main {
+        java {
+
+        }
+    }
+
+    test {
         java {
 
         }
@@ -55,7 +64,7 @@ tasks.register<Javadoc>("generateCustomJavadocs") {
 
 
 
-publishing {
+/*publishing {
     publications {
         create<MavenPublication>("myLibrary") {
             from(components["java"])
@@ -67,7 +76,7 @@ publishing {
             url = uri(layout.buildDirectory.dir("publications/myLibrary"))
         }
     }
-}
+}*/
 
 allprojects {
     tasks.withType<Test> {
