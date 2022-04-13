@@ -1,0 +1,25 @@
+name: Gradle CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+      - name: Setup JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      - name: Check our code
+        uses: actions/checkout@v2
+        
+      # Make gradle wrapper executable
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+        
+      # Run the build using gradle
+      - name: Building with Gradle
+        run: ./gradlew build
