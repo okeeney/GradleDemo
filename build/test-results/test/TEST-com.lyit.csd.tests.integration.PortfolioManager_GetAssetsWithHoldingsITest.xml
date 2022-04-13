@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.lyit.csd.tests.integration.PortfolioManager_GetAssetsWithHoldingsITest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-12T17:26:38" hostname="DESKTOP-8CDMI80" time="0.006">
-  <properties/>
-  <testcase name="getAssetsWithHoldings_GivenInvalidSymbol_ReturnsEmptyList" classname="com.lyit.csd.tests.integration.PortfolioManager_GetAssetsWithHoldingsITest" time="0.006"/>
-  <testcase name="getAssetsWithHoldings_GivenSymbolWithCurrentHoldings_ReturnsList" classname="com.lyit.csd.tests.integration.PortfolioManager_GetAssetsWithHoldingsITest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

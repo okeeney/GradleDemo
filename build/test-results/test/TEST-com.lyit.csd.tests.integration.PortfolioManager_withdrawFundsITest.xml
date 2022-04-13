@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.lyit.csd.tests.integration.PortfolioManager_withdrawFundsITest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-12T17:31:11" hostname="DESKTOP-8CDMI80" time="0.0">
-  <properties/>
-  <testcase name="withdrawFunds_InvalidTransaction" classname="com.lyit.csd.tests.integration.PortfolioManager_withdrawFundsITest" time="0.0"/>
-  <testcase name="withdrawFunds_ValidTransaction_SufficientBalanceForWithdrawal" classname="com.lyit.csd.tests.integration.PortfolioManager_withdrawFundsITest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
