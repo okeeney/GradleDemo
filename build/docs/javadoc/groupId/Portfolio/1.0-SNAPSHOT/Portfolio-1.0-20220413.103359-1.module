@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "groupId",
+    "module": "Portfolio",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Portfolio-1.0-SNAPSHOT.jar",
+          "url": "Portfolio-1.0-SNAPSHOT.jar",
+          "size": 37728,
+          "sha512": "15613ef162dfd690f9ddcd104783810d5eec0d84e8af0b7d569c54d40bb4a32516fe8a629c54cfc50881f0ac344313612ea8305859d807f664dffb0e07480b4d",
+          "sha256": "4c910f502e044afd00fac07692b405cddbb2ed01c5cb494c12ba19c77fa06bb2",
+          "sha1": "6c41f43cb6bc5cb3335b37be11ea6200d3affde3",
+          "md5": "b75b945f69291f239ab62a18883de3d8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20211205"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.testng",
+          "module": "testng",
+          "version": {
+            "requires": "7.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "1.7.36"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Portfolio-1.0-SNAPSHOT.jar",
+          "url": "Portfolio-1.0-SNAPSHOT.jar",
+          "size": 37728,
+          "sha512": "15613ef162dfd690f9ddcd104783810d5eec0d84e8af0b7d569c54d40bb4a32516fe8a629c54cfc50881f0ac344313612ea8305859d807f664dffb0e07480b4d",
+          "sha256": "4c910f502e044afd00fac07692b405cddbb2ed01c5cb494c12ba19c77fa06bb2",
+          "sha1": "6c41f43cb6bc5cb3335b37be11ea6200d3affde3",
+          "md5": "b75b945f69291f239ab62a18883de3d8"
+        }
+      ]
+    }
+  ]
+}
