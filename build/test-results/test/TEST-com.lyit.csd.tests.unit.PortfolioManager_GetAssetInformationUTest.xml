@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.lyit.csd.tests.unit.PortfolioManager_GetAssetInformationUTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-13T21:52:48" hostname="DESKTOP-8CDMI80" time="0.027">
+<testsuite name="com.lyit.csd.tests.unit.PortfolioManager_GetAssetInformationUTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-13T22:52:58" hostname="DESKTOP-8CDMI80" time="0.007">
   <properties/>
-  <testcase name="getAssetInformation_ManySymbols_ReturnsData" classname="com.lyit.csd.tests.unit.PortfolioManager_GetAssetInformationUTest" time="0.023"/>
+  <testcase name="getAssetInformation_ManySymbols_ReturnsData" classname="com.lyit.csd.tests.unit.PortfolioManager_GetAssetInformationUTest" time="0.004"/>
   <testcase name="getAssetInformation_NoSymbols_ReturnsEmptyList" classname="com.lyit.csd.tests.unit.PortfolioManager_GetAssetInformationUTest" time="0.002"/>
   <system-out><![CDATA[Skipping invalid symbol...
 ]]></system-out>

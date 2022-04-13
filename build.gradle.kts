@@ -34,12 +34,18 @@ java {
 }
 
 
-tasks.test {
-    useTestNG()
-}
+//tasks.test {
+  //  useTestNG()
+//}
 
 tasks.named<Test>("test") {
+    useTestNG()
+
+    println("Executing tests...")
+
     testLogging.showStandardStreams = true
+
+
 }
 
 sourceSets {
@@ -79,9 +85,9 @@ tasks.register<Javadoc>("generateCustomJavadocs") {
 }*/
 
 allprojects {
-    tasks.withType<Test> {
-        maxParallelForks = 4
-    }
+    //tasks.withType<Test> {
+        //maxParallelForks = 4
+    //}
 
     tasks.withType<Javadoc> {
         println("in tasks.withType<Javadoc>")

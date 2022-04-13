@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.lyit.csd.tests.unit.PortfolioManager_PurchaseAssetUTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-13T21:52:48" hostname="DESKTOP-8CDMI80" time="0.022">
+<testsuite name="com.lyit.csd.tests.unit.PortfolioManager_PurchaseAssetUTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-13T22:52:58" hostname="DESKTOP-8CDMI80" time="0.001">
   <properties/>
-  <testcase name="purchaseAsset_insufficientFunds_expectFail" classname="com.lyit.csd.tests.unit.PortfolioManager_PurchaseAssetUTest" time="0.018"/>
-  <testcase name="purchaseAsset_singleUnit_happyPath" classname="com.lyit.csd.tests.unit.PortfolioManager_PurchaseAssetUTest" time="0.001"/>
-  <testcase name="purchaseAsset_zeroUnit_expectFail" classname="com.lyit.csd.tests.unit.PortfolioManager_PurchaseAssetUTest" time="0.001"/>
+  <testcase name="purchaseAsset_insufficientFunds_expectFail" classname="com.lyit.csd.tests.unit.PortfolioManager_PurchaseAssetUTest" time="0.001"/>
+  <testcase name="purchaseAsset_singleUnit_happyPath" classname="com.lyit.csd.tests.unit.PortfolioManager_PurchaseAssetUTest" time="0.0"/>
+  <testcase name="purchaseAsset_zeroUnit_expectFail" classname="com.lyit.csd.tests.unit.PortfolioManager_PurchaseAssetUTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
