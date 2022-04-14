@@ -23,5 +23,14 @@ jobs:
       # Run the build using gradle
       - name: Building with Gradle
         run: ./gradlew build
-        
- 
+  
+  #Publish javadocs to github
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Javadocs
+        uses: MathieuSoysal/Javadoc-publisher.yml@v2.0.3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          java-version: 17
+    
