@@ -44,6 +44,7 @@ tasks.named<Test>("test") {
     println("Executing tests...")
 
     testLogging.showStandardStreams = true
+    testLogging.events("passed", "failed", "skipped")
 
 
 }
