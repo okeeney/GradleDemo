@@ -4,8 +4,11 @@
  */
 
 plugins {
-    java
+     java
     `java-library`
+     application
+
+
     //publishing
     //`maven-publish`
 }
@@ -33,10 +36,17 @@ java {
     withJavadocJar()
 }
 
-
+application {
+    mainClass.set("com.lyit.csd.app.Main")
+}
 //tasks.test {
   //  useTestNG()
 //}
+
+
+tasks.getByName("run", JavaExec::class) {
+    standardInput = System.`in`
+}
 
 tasks.named<Test>("test") {
     useTestNG()
@@ -67,8 +77,6 @@ tasks.register<Javadoc>("generateCustomJavadocs") {
     println("Generating Javadocs...")
     source(sourceSets["main"].allJava)
 }
-
-
 
 
 /*publishing {
